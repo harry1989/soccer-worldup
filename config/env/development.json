@@ -1,0 +1,6 @@
+{
+    "db": "mongodb://localhost/mean-dev",
+    "app": {
+        "name": "soccer-world - A portal to view Soccer players, nations, teams with information related to world cup 2014 - Development"
+    }
+}

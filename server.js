@@ -37,11 +37,11 @@ walk(models_path);
 
 var app = express();
 
-//express settings
-require('./config/express')(app);
-
 //Bootstrap routes
 require('./config/routes')(app);
+
+//express settings
+require('./config/express')(app);
 
 //Start the app by listening on <port>
 var port = config.port;
